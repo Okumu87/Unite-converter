@@ -38,4 +38,8 @@ convertBtn.addEventListener("click", function() {
     // // mass conversion
 
     document.getElementById("mass-result").textContent = `${inputValue} kilos = ${kiloToPound} pounds | ${inputValue} pounds = ${(inputValue / 2.204).toFixed(3)} kilos`;
+
+    // weight conversion
+
+    document.getElementById("weight-result").textContent = `${inputValue} kilos = ${kiloToPound} pounds | ${inputValue} pounds = ${(inputValue / 2.204).toFixed(3)} kilos`;
 });
